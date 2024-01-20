@@ -10,7 +10,7 @@
     <noscript> 스크립트를 지원하지 않습니다 </noscript>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&display=swap');
-      </style>
+    </style>
 
 
       
@@ -28,21 +28,20 @@
             <a href="Login.html" id="Login"> 로그인/회원가입</a>
         </div>
     </header>
-    
 
     <nav>
         <div class="navContainer">
             <ul id="mainBarMenu">
-                <li><a href="frontEnd" class="navMenu">프론트엔드 과정</a></li>
-                <li><a href="backEnd" class="navMenu">백엔드 과정</a></li>
-                <li><a href="database" class="navMenu">DB 과정</a></li>
-                <li><a href="event.html" class="navMenu">이벤트</a></li>
-                <li class="hover">
-                    <a href="#">About Us</a>
+                <li id="navMenu"><a href="frontEnd">프론트엔드 과정</a></li>
+                <li id="navMenu"><a href="backEnd">백엔드 과정</a></li>
+                <li id="navMenu"><a href="database">DB 과정</a></li>
+                <li id="navMenu"><a href="event.html" >이벤트</a></li>
+                <li class="hover" id="navMenu">
+                    <a href="#">About Us </a>
                     <ul class="subM">
-                        <li><a href="aboutUs"> HJ_Coding Academy 소개</a></li>
-                        <li><a href="aboutUs"> HJ_Coding Academy 파트너사</a></li>
-                        <li><a href="aboutUs"> HJ_Coding Academy 고객센터</a></li>
+                        <li id="subMenu"><a href="aboutUs"> HJ_Coding Academy 소개</a></li>
+                        <li id="subMenu"><a href="aboutUs"> HJ_Coding Academy 파트너사</a></li>
+                        <li id="subMenu"><a href="aboutUs"> HJ_Coding Academy 고객센터</a></li>
                     </ul>
                 </li>
             </ul>
@@ -51,24 +50,53 @@
 
 
     <main class="mainCont">
-        <div id="line1"> <img src="img/FE1.png" alt="img"></div>
-        
-        <div id="HJ_Coding_H2"><h2> HJ_Coding Academy BAST Pick!</h2></div>
+
+        <div class="slider">
+            <div class="line1">
+                <img src="img/FE1.png" alt="img 1">
+                <img src="img/BE1.png" alt="img 2">
+                <img src="img/DB1.png" alt="img 3">
+            </div>
+        </div>
+        <div id="HJ_Coding_H2">
+            <h2> HJ_Coding Academy BAST Pick!</h2>
+        </div>
 
         <div class="lc">
-            <div class="l1"> <img src="img/FE2.png" alt="img" class="lc_img"></div>
-            <div class="l2"> <img src="img/BE2.png" alt="img" class="lc_img"></div>
-            <div class="l3"><img src="img/DB2.png" alt="img" class="lc_img"></div>
-            <div class="l4"><img src="img/BTC2.png" alt="img" class="lc_img"></div>
-        </div> 
+            <div class="l1"> <a href="FE.html"><img src="img/FE2.png" alt="img" class="lc_img"></a></div>
+            <div class="l2"> <a href="BE.html"><img src="img/BE2.png" alt="img" class="lc_img"></a></div>
+            <div class="l3"><a href="DB.html"><img src="img/DB2.png" alt="img" class="lc_img"></a></div>
+            <div class="l4"><a href="BC.html"><img src="img/BTC2.png" alt="img" class="lc_img"></a></div>
+        </div>
+
+        <div id="HJ_Coding_H2">
+            <h2> HJ_Coding Academ 과 함께하기</h2>
+        </div>
+
         <div class="read">
-            <div class="r1"> <p><h3>강사 지원하기</h3></p></div>
-            <div class="r2"><p><h3>HJ_Coding Academy 비즈니스 신청</h3></p></div>
-            <div class="r3"><p><h3>HJ_Coding Academy 제휴</h3></p></div>
+            <div class="r1">
+                <p>
+                <h2 class="subj">강사 지원하기</h2>
+                </p>
+                <p>HJ_Coding Academy 에서는 훌륭한 재능을 가진 당신을 기다립니다! <br> 세상에 단 하나뿐인 당신만의 지식을 공유해주고, <br> 합당한 대가를 받아보세요!</p>
+            </div>
+            <div class="r2">
+                <p>
+                <h3 class="subj">HJ_Coding Academy 비즈니스 신청</h3>
+                </p>
+                <p>HJ_Coding Academy 에서 모든 수강생들이 좀 더 <br> 만족하며 모든 강의를 수강할 수 있도록 <br> 함께 해주세요!</p>
+            </div>
+            <div class="r3" class="subj">
+                <p>
+                <h2 class="subj">HJ_Coding Academy 제휴</h2>
+                </p>
+                <p>HJ_Coding Academy 와 함께 더 나은 코딩교육, <br> 부트캠프를 만들어가실 분들을 <br> 함께 해주세요!</p>
+            </div>
         </div>
     </main>
     <footer class="footer">
-
+        
     </footer>
 </body>
+
 </html>
