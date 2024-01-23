@@ -180,9 +180,10 @@ nav {
 }
 
 .slider {
-    width: 80%;
+    width: 76%;
     margin: auto;
     overflow: hidden;
+    
 }
 .line1 {
     /* border: 1px blue solid; */
@@ -194,6 +195,7 @@ nav {
     height: auto;
 }
 #HJ_Coding_H2{
+    margin: 0 1%;
     display: flex;
     align-items: center;
     font-family: sans-serif;
