@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HJ Coding Academy - 고객센터</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="coding.js"></script>
+    <noscript> 스크립트를 지원하지 않습니다 </noscript>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&display=swap');
+
+        @font-face {
+            font-family: 'neurimboGothicRegular';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/neurimboGothicRegular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffa0f7;
+            color: #fff;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            margin-bottom: 30px;
+            width: 70%;
+            height: 30%;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.5;
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+      
+
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .contact-info div {
+            flex: 0 0 48%;
+        }
+
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #f4a3f7;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body style="margin: 0%;">
+        <header class="ACbar">
+            <div class="logo">
+                <a href="index.html" class="home"><img src="img/logo.png" alt="logo" id="logo"></a>
+            </div>
+            <div class="subText">
+                <h3 id="subText"> | 당신의 코딩 첫걸음의 길잡이!</h3>
+            </div>
+            <div class="subMenu">
+                <a href="event.html" target="_blank" id="event"> 이벤트 </a>
+                <a href="Login.html" id="Login"> 로그인/회원가입</a>
+            </div>
+        </header>
+
+        <nav>
+            <div class="navContainer">
+                <ul id="mainBarMenu">
+                    <li id="navMenu"><a href="FE/FE.html">프론트엔드 과정</a></li>
+                    <li id="navMenu"><a href="BE/BE.html">백엔드 과정</a></li>
+                    <li id="navMenu"><a href="DB/DB.html">DB 과정</a></li>
+                    <li id="navMenu"><a href="event.html">이벤트</a></li>
+                    <li class="hover" id="navMenu">
+                        <a href="#">About Us </a>
+                        <ul class="subM">
+                            <li id="subMenu"><a href="aboutUs.html"> HJ_Coding Academy 소개</a></li>
+                            <li id="subMenu"><a href="partnership.html"> HJ_Coding Academy 파트너사</a></li>
+                            <li id="subMenu"><a href="customerService.html"> HJ_Coding Academy 고객센터</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header>
+            <h1>HJ Coding Academy 고객센터</h1>
+        </header>
+
+        <main>
+            <section style="text-align: center;">
+                <h2>Contact Information</h2>
+                <div class="contact-info" style="display: flex; justify-content: center; align-items: center;">
+                    <div>
+                        <p><strong>Phone:</strong> +82 (010) 5916-0335</p>
+                        <p><strong>Email:</strong> kseol1017@gmail.com</p>
+                        <p><strong>Address:</strong> 123 Coding Street, Seoul, Korea</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <h2>고객지원 양식</h2>
+                <div class="contact-form">
+                    <form>
+                        <label for="name">이름:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">이메일:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">내용:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="hj_Coding_Academy_Footer"> HJ_Coding Academy </p>
+            <p>&copy; 2024 HJ_Coding Academy. All rights reserved.</p>
+    
+        </footer>
+
+
+    </body>
+
+</html>

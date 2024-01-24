@@ -1,0 +1,260 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+.ACbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 0 20px; 
+    height: 70px;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+    
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+}
+
+.subText {
+    margin-left: 20px; 
+    font-family: sans-serif;
+    position: relative;
+    right: 30%;
+
+}
+
+.subMenu {
+    display: flex;
+    align-items: center;
+}
+
+.subMenu a {
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0 10px;
+    text-decoration: none;
+}
+#event, #Login{
+    color: black;
+}
+#event:hover, #Login:hover {
+    color: pink;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+ 
+
+}
+
+.navContainer {
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content:  space-around;
+    margin: 0 auto;
+}
+
+#mainBarMenu {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+#mainBarMenu li {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    padding:0 100px;
+    position: relative; 
+}
+
+
+#navMenu{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    white-space: nowrap; 
+}
+#navMenu>a{
+    width: 100%;
+    color: white !important;
+}
+#mainBarMenu li:hover{
+    background-color: gray;
+}
+.hover{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.hover:visited{
+    color: white;
+}
+.hover a{
+    color: white;
+    
+}
+
+.hover:hover .subM {
+    display: block;
+    max-height: 200px;
+
+}
+
+.subM {
+    display: flex;
+    width: 1472px;
+    position: absolute;
+    top: 100%;
+    left: -1148px;
+    background-color: black;
+    color: white;
+    opacity: 0; 
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+    white-space: nowrap; 
+}
+
+
+.subM li {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 0 !important;
+    margin-top: 1.5% !important;
+    margin-bottom: 0.5% !important;
+} 
+#subMenu{
+    width: 100%;
+    padding: 0 !important;
+}
+
+.mainCont {
+    /* border: solid red; */
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    justify-content: space-around;
+}
+
+.slider {
+    width: 76%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.line1 {
+    /* border: 1px blue solid; */
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.line1 img {
+    width: 100%;
+    height: auto;
+}
+#HJ_Coding_H2{
+    margin: 0 1%;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.lc{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+.l1, .l2, .l3, .l4 {
+    width: 100%; 
+    height: 100%;
+    border: 1px seagreen solid;
+    margin: 0 0.5%;
+    
+}
+.lc_img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.read{
+    width:100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.r1,.r2,.r3{
+    border: 1px sandybrown solid;
+    height: 100%;
+    width: 70%;
+    margin: 0 1.7%;
+    text-align: center;
+    line-height: 2em;
+}
+.r1,.r2,.r3 > p{
+    font-family: 'neurimboGothicRegular';
+
+}
+.subj{
+    margin-top: 1em;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    
+}
+
+.footer {
+    text-align: center;
+    
+    background-color: rgba(58, 58, 58, 0.74);
+    width: auto;
+    height: 100px;
+}
+.hj_Coding_Academy_Footer{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
