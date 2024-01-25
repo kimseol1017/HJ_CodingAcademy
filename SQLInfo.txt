@@ -34,3 +34,7 @@ create table board (
 CREATE TABLE admin(
 adminId number(10) not null primary key,
 adminPw VARCHAR2 (255) not NULL);
+
+select * from users;    
+select * from board;
+
